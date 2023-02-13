@@ -1,0 +1,13 @@
+port = 3000
+readiness_path = "/health"
+default_environment="prod"
+
+# domains=["your.domain"]
+
+[postgres]
+
+[env.common]
+DATABASE_SSL = "false"
+
+[env.prod]
+# UNLEASH_URL = "https://YOUR_DOMAIN"
